@@ -1,0 +1,48 @@
+.legend{
+width: 8px;
+    height: 8px;
+    display: block;
+    border-radius: 0;
+    margin-inline-end: 10px;
+    margin-block-start: 6px;
+   background-color: #0162e8;
+}
+.sales-info h3 {
+    font-size: 21px;
+    font-weight: 700;
+}
+.product-timeline ul.timeline-1>li .product-icon {
+    width: 37px;
+    height: 37px;
+    text-align: center;
+    border-radius: 50%;
+    position: absolute;
+    inset-inline-start: 3px;
+    font-size: 20px;
+    line-height: 37px;
+    font-size: 17px;
+}
+.product-timeline ul.timeline-1:before {
+    content: " ";
+    margin: 20px 20px 0 22px;
+    display: inline-block;
+    position: absolute;
+    inset-inline-start: -2px;
+    height: 94%;
+    z-index: 0;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    border-inline-start: 2px dotted;
+}
+.product-timeline ul.timeline-1 {
+    list-style-type: none;
+    position: relative;
+}
+.fe-pie-chart:before
+ {
+    content: "\e9ac";
+}
+.fc-daygrid-event-harness{
+    background-color: #c0b5ff;
+}
